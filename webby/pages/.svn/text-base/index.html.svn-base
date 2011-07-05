@@ -1,0 +1,4 @@
+<h1>What's Twitulater?</h1>
+
+<p>Twitulater is an Adobe AIR microblogging client that currently supports <a href="http://twitter.com">Twitter</a> and <a href="http://koornk.com">Koornk</a>. Its aim is to make life easier for power users who are constantly bombarded by messages from the many people they follow, through automatically splitting the tweet stream into different categories based on content rather than whom the messages are from.</p>
+<p>There are eleven basic categories: Direct Messages, Replies, Link sharing, Questions, Happy, Sad, Chatter, ReTweets, My Tweets, All Tweets, Spam and another category is automagically created for every hashtag found. This enables users to only read what interests them at the moment without having to deal with all the noise on microblogging services.</p>

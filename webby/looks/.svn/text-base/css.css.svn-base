@@ -1,0 +1,125 @@
+*
+{
+	font-family: Tahoma;
+}
+
+body
+{
+	padding-left: 80px;
+	padding-top: 120px;
+	background: url( "images/header.jpg" ) top left no-repeat #121214;
+	color: white;
+}
+
+body *
+{
+	color: #f3f3f4;
+}
+
+a:hover
+{
+	color: red;
+}
+
+h1
+{
+	font-size: 24px;
+}
+
+h2
+{
+	font-size: 20px;
+}
+
+p
+{
+	font-size: 14px;
+	width: 100%;
+	text-align: justify;
+}
+
+#galleryContainer
+{
+	position: absolute;
+	top: 150px;
+	left: 20px;
+}
+
+#contentContainer
+{
+	width: 520px;
+	position: absolute;
+	left: 620px;
+	top: 50px;
+/* 	height: 600px; */
+}
+
+#content
+{
+/* 	height: 100%; */
+	width: 100%;
+/* 	overflow: auto; */
+}
+
+ul#menu
+{
+	position: absolute;
+	top: 0px;
+	left: 580px;
+	width: 500px;
+}
+
+ul#minimenu
+{
+	position: relative;
+	top: 50px;
+	width: 500px;
+}
+
+ul#menu li, ul#minimenu li
+{
+	list-style: none;
+	display: inline;
+}
+
+ul#menu li a, ul#minimenu li a, a.getnow
+{
+	text-decoration: none;
+}
+
+ul#menu li a *, ul#minimenu li a *, a.getnow *
+{
+	color: black !important;
+	font-family: Tahoma;
+}
+
+a.getnow
+{
+	position: absolute;
+	top: 470px;
+	left: 120px;
+}
+
+ul.download li
+{
+	list-style: none;
+	width: 100%;
+	height: 140px;
+}
+ul.download a
+{
+	cursor: pointer;
+	display: inline-block;
+}
+ul.download a img
+{
+	border: none;
+}
+ul.download p
+{
+	width: 200px;
+	display: inline-block;
+	padding-left: 20px;
+	position: relative;
+	top: -40px;
+}

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/twitulator/!svn/ver/266/syncServer
+END
+SyncUser.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/twitulator/!svn/ver/266/syncServer/SyncUser.py
+END
+SyncUserTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twitulator/!svn/ver/264/syncServer/SyncUserTest.py
+END
+SyncDataManager.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/twitulator/!svn/ver/266/syncServer/SyncDataManager.py
+END
+SyncDataManagerTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/twitulator/!svn/ver/266/syncServer/SyncDataManagerTest.py
+END
+SyncServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/twitulator/!svn/ver/266/syncServer/SyncServer.py
+END
+SyncServerTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/twitulator/!svn/ver/266/syncServer/SyncServerTest.py
+END
+SyncData.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/twitulator/!svn/ver/266/syncServer/SyncData.py
+END
+SyncDataTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/twitulator/!svn/ver/264/syncServer/SyncDataTest.py
+END

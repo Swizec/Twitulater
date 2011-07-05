@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/twitulator/!svn/ver/290/statsServer
+END
+StatUser.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/twitulator/!svn/ver/257/statsServer/StatUser.py
+END
+report.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/twitulator/!svn/ver/257/statsServer/report.py
+END
+StatCollector.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/twitulator/!svn/ver/290/statsServer/StatCollector.py
+END
+StatCollectorTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/twitulator/!svn/ver/256/statsServer/StatCollectorTest.py
+END
+StatServer.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/twitulator/!svn/ver/292/statsServer/StatServer.py
+END
+StatServerTest.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/twitulator/!svn/ver/245/statsServer/StatServerTest.py
+END

@@ -1,0 +1,24 @@
+<h4><l>plugins_protocols</l></h4>
+<ul class="plugins protocol">
+	
+</ul>
+
+<h4><l>plugins_shorteners</l></h4>
+<ul class="plugins URIshortener">
+	
+</ul>
+
+<h4><l>plugins_filehandlers</l></h4>
+<ul class="plugins fileHandler">
+	
+</ul>
+
+<h4><l>plugins_languages</l></h4>
+<ul class="plugins language">
+	
+</ul>
+
+<h4><l>plugins_services</l></h4>
+<ul class="plugins service">
+	
+</ul>

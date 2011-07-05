@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/twitulator/!svn/ver/279/app/plugins/Twitter
+END
+twitterReader.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/twitulator/!svn/ver/267/app/plugins/Twitter/twitterReader.js
+END
+twitterServicer.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/twitulator/!svn/ver/213/app/plugins/Twitter/twitterServicer.js
+END
+twitterAuthorisator.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/twitulator/!svn/ver/267/app/plugins/Twitter/twitterAuthorisator.js
+END
+twitterPoster.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/twitulator/!svn/ver/292/app/plugins/Twitter/twitterPoster.js
+END
+Twitter.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/twitulator/!svn/ver/208/app/plugins/Twitter/Twitter.js
+END

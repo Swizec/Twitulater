@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<latestversion>0.14.0.1</latestversion>
+	<releasenotes>
+- fixed usability issues with groups config
+- fixed a bug with tweet commands not displaying
+- fixed a bug with displaying DM tweets in other columns
+- improved usability of OAuth login
+- improved the look and feel of tweet input box
+	</releasenotes>
+</application>

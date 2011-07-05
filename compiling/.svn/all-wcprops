@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/twitulator/!svn/ver/205/compiling
+END
+compile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/twitulator/!svn/ver/205/compiling/compile.sh
+END
+twitulatercert.p12
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/twitulator/!svn/ver/194/compiling/twitulatercert.p12
+END
+nightly.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/twitulator/!svn/ver/194/compiling/nightly.php
+END
+nightly.sh
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/twitulator/!svn/ver/205/compiling/nightly.sh
+END
+devReadme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/twitulator/!svn/ver/194/compiling/devReadme.txt
+END
+compile.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/twitulator/!svn/ver/194/compiling/compile.php
+END

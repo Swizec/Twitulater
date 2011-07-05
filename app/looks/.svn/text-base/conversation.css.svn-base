@@ -1,0 +1,28 @@
+body
+{
+	overflow: auto;
+}
+
+.tweetPane
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	float: none;
+	overflow: auto;
+}
+
+.tweetPane ul
+{
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 0;
+}
+
+.tweetPane li
+{
+	float: none;
+}

@@ -1,0 +1,4 @@
+fixed groups interface (#143)
+fixed bug with stats getting something weird as id
+made the feedback form less annoying (#140)
+fixed disgraceful fail on tweeting errors (#142)

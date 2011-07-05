@@ -1,0 +1,22 @@
+<h1>Features</h1>
+
+<p>Here are some of the most important features of Twitulater</p>
+<ul>
+	<li>continously retrieving messages</li>
+	<li>splits messages based on content</li>
+	<li>automatic hashtag recognition</li>
+	<li>Growl notifications</li>
+	<li>efficient conversation display</li>
+	<li>displays your social graph</li>
+	<li>emphasises important tweets</li>
+	<li>multi language support</li>
+	<li>core is completely protocol independent</li>
+	<li>supports Twitter and Koornk</li>
+	<li>multiple simultaneous user support</li>
+	<li>reply/retweet/direct message commands</li>
+	<li>expanding short URL's via <a href="http://longurlplease.com">longurlplease</a></li>
+	<li>shrinking tweets via <a href="http://tweetshrink.com">tweetshrink</a></li>
+	<li>URL shortening support</li>
+	<li>picture and file uploading</li>
+	<li>integrated feedback widget</li>
+</ul>

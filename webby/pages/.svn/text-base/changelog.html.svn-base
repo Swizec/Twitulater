@@ -1,0 +1,217 @@
+<h1>Changelog</h1>
+
+<h2>Version 0.14.0.1 Aug 12th 2009</h2>
+<ul>
+	<li>fixed usability issues with groups config</li>
+	<li>fixed a bug with tweet commands not displaying</li>
+	<li>fixed a bug with displaying DM tweets in other columns</li>
+	<li>improved usability of OAuth login</li>
+	<li>improved the look and feel of tweet input box</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.14.0.1.air">Download 0.14.0.1</a></li>
+</ul>
+
+<h2>Version 0.14 Aug 11th 2009</h2>
+<ul>
+	<li>added support for groups</li>
+	<li>added support for manual searches</li>
+	<li>added Twitter OAuth support</li>
+	<li>added auto completion for usernames</li>
+	<li>added auto completion for hashtags</li>
+	<li>added automatic updates</li>
+	<li>added language rollback question</li>
+	<li>added support/requests interface</li>
+	<li>added followfriday helper</li>
+	<li>added drag&amp;drop columns</li>
+	<li>added drag&amp;drop resizable columns</li>
+	<li>added drag&amp;drop resizable column menu</li>
+	<li>added column filtering</li>
+	<li>added search to all people displays</li>
+	<li>added bit.ly support</li>
+	<li>changed the general UI layout</li>
+	<li>fixed a bug with the language picker</li>
+	<li>fixed slownes of people list display</li>
+	<li>removed tr.im support because it died</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.14.air">Download 0.14</a></li>
+</ul>
+
+<h2>Version alpha1.1 Jul 13th 2009</h2>
+<ul>
+	<li>added list of seen users, friends, fans, followers, blocked</li>
+	<li>added ability to follow and unfollow</li>
+	<li>added ability to block and unblock</li>
+	<li>added user profile display</li>
+	<li>added multi-language interface</li>
+	<li>added support for slovene and pirate language</li>
+	<li>added refresh button</li>
+	<li>fixed shorten URL interface wrong default service</li>
+	<li>fixed drag&mp;drop issues</li>
+	<li>fixed tweets showing up as tabs</li>
+	<li>fixed showing too many tweets in conversations</li>
+	<li>fixed problems with commands not loading quickly enough</li>
+	<li>fixed some other less prominent bugs</li>
+	<li>removed read delay at startup</li>
+	<li>removed closing delay</li>
+	<li>a whole lot of refactoring and behind the scenes improvements</li>
+	<li><a href="downloader.php?file=repo/Twitulater_alpha1.1.air">Download alpha1.1</a></li>
+</ul>
+
+<h2>Version alpha1 Jun 9th 2009</h2>
+<ul>
+	<li>moved everything to a plugin system</li>
+	<li>plugin managment</li>
+	<li>refresh frequency settings</li>
+	<li>ability to logout</li>
+	<li>display conversations in a thread</li>
+	<li>highlight important tweets</li>
+	<li>fallback on available upload services</li>
+	<li>disable growl notifications</li>
+	<li>twitlonger.com implemented</li>
+	<li>widened category menu</li>
+	<li>drag&amp;droppable tabs</li>
+	<li>cleaned up login interface</li>
+	<li>simplified install process</li>
+	<li>tweets only stored on quit</li>
+	<li>improved general responsiveness and speed</li>
+	<li>fixed crashing/hanging problems</li>
+	<li>fixed leftover zombie process problem</li>
+	<li>fixed hidden interface problem</li>
+	<li>fixed problem with saving autologin</li>
+	<li>removed category menu close/open button</li>
+	<li><a href="downloader.php?file=repo/Twitulater_alpha1.air">Download alpha1</a></li>
+</ul>
+
+<h2>Version 0.11 Mar 13th 2009</h2>
+<ul>
+	<li>the shrink tweet button only appears when tweet too long</li>
+	<li>koornk feed reads origin parameter</li>
+	<li>tr.im implemented</li>
+	<li>URL's automatically shorten when pasted</li>
+	<li>drag&amp;drop file upload</li>
+	<li>shrani.si file handler implemented</li>
+	<li>growl notifications of new messages and changes in followers</li>
+	<li>general UI cleanup</li>
+	<li>basic user settings</li>
+	<li>fixed bug with panels not adapting properly to window size changes</li>
+	<li>reduced lockup on startup</li>
+	<li>improved the RT detection algorithm</li>
+	<li>tinyarro.ws implemented</li>
+	<li>fetching many replies on startup</li>
+	<li>reading direct messages</li>
+	<li>improved stability</li>
+	<li>several other minor bugs fixed</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.11.air">Download v0.11</a></li>
+</ul>
+
+<h2>Version 0.9 Feb 2nd 2009</h2>
+<ul>
+	<li>completely microblogging protocol nondependent</li>
+	<li><a href="http://koornk.com">koornk</a> support</li>
+	<li>protocol icon  next to username in tab</li>
+	<li>automatic login for secondary users</li>
+	<li>automatically logs in several users at once</li>
+	<li>ability to close panels</li>
+	<li>css-styled pretty scrollbars</li>
+	<li>fixed bug with followers reporting</li>
+	<li>fixed panel open animations</li>
+	<li>fixed some other less prominent bugs</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.9.air">Download v0.9</a></li>
+</ul>
+
+<h2>Version 0.8 Jan 17th 2009</h2>
+<ul>
+	<li>sexy new user interface</li>
+	<li>notifying of new followers</li>
+	<li>notifying of lost followers</li>
+	<li>fixed bug with fresh tweet counter</li>
+	<li>fixed some other less prominent bugs</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.8.air">Download v0.8</a></li>
+</ul>
+
+<h2>Version 0.7 Jan 8th 2009</h2>
+<ul>
+	<li>implemented twitpic</li>
+	<li>implemented <a href="http://tweetshrink.com">tweetshrink</a></li>
+	<li>implemented display filtering</li>
+	<li>fresh counter in tab decounting when panels opened</li>
+	<li>nicknames link to twitter profiles</li>
+	<li>improved retweet detection for people using 'RP'</li>
+	<li>tweet input focuses when clicking a command</li>
+	<li>fixed a problem with displaying old tweets</li>
+	<li>panel menu automatically adjusts height</li>
+	<li>improved the look of characters left counter</li>
+	<li>several interface speed improvements</li>
+	<li>many bugs fixed</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.7.air">Download v0.7</a></li>
+</ul>
+
+<h2>Version 0.6 Dec 25th 2008</h2>
+<ul>
+	<li>tabbed multi-user interface</li>
+	<li>tweets link what they replied to</li>
+	<li>three new categories added</li>
+	<li>drag&drop sorting of menu items</li>
+	<li>implemented <a href="http://longurlplease.com">longurlplease.com</a></li>
+	<li>several GUI improvements</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.6.air">Download v0.6</a></li>
+</ul>
+
+<h2>Version 0.5.1 Dec 15th 2008</h2>
+<ul>
+	<li>use of search API added to make sure anything pertaining the user is caught</li>
+	<li>critical bug with twitter API changing fixed</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.5.1.air">Download v0.5.1</a></li>
+</ul>
+
+<h2>Version 0.5 Dec 7th 2008</h2>
+<ul>
+	<li>user interface redesign for greater usability</li>
+	<li>automatic tweet category creation from hashtags</li>
+	<li>quicker tweet type recognition</li>
+	<li>backend changed to allow for more than a single user</li>
+	<li>several bugs fixed</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.5.air">Download v0.5</a></li>
+</ul>
+
+<h2>Version 0.4.1 Nov 30th 2008</h2>
+<ul>
+	<li>doesn't assume credetentials are correct and gives option to re-enter them</li>
+	<li>works on windows</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.4.1.air">Download v0.4.1</a></li>
+</ul>
+
+<h2>Version 0.4 Nov 23rd 2008</h2>
+<ul>
+	<li>redone tweet displaying algorithms to clear lockup</li>
+	<li>UI animations improved</li>
+	<li>retweet, reply and DM commands on every tweet</li>
+	<li>incorporated feedback widget</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.4.air">Download v0.4</a></li>
+</ul>
+
+<h2>Version 0.3 Nov 16th 2008</h2>
+<ul>
+	<li>login process more user friendly</li>
+	<li>tweet times displayed in local time</li>
+	<li>all links open in default browser window</li>
+	<li>@replies transformed into links</li>
+	<li>url shortening service integrated</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.3.air">Download v0.3</a></li>
+</ul>
+
+<h2>Version 0.2 Nov 14th 2008</h2>
+<ul>
+	<li>greatly reduced lockup during timeline update</li>
+	<li>characters left counter when writing a tweet</li>
+	<li>tweet input field goes red when length limit exceeded</li>
+	<li>tweet can be submited by pressing &lt;return&gt;</li>
+	<li>clearly displayed status of tweet posting</li>
+	<li>clearly displayed status of timeline updating</li>
+	<li>tightened up tweet displayal</li>
+	<li><a href="downloader.php?file=repo/Twitulater_0.2.air">Download v0.2</a></li>
+</ul>
+
+<h2>Version 0.1 Nov 11th 2008</h2>
+<ul>
+	<li>splitting tweets into seven categories</li>
+	<li>submitting tweets</li>
+</ul>

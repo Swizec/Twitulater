@@ -1,0 +1,1234 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-decoration: none;
+	font-family: Tahoma;
+	list-style: none;
+/* 	overflow: hidden; */
+}
+
+body
+{
+	background: url( "images/header.png" ) top left no-repeat #080808;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+button
+{
+	font-weight: normal;
+}
+
+#input
+{
+	width: 100%;
+	position: absolute;
+	top: 25px;
+	left: 0px;
+}
+
+#input #myTweet
+{
+	position: absolute;
+	width: 465px;
+	height: 20px;
+	padding: 2px;
+	padding-right: 28px;
+	font-size: 16px;
+	color: black;
+	z-index: 1000;
+	background: white;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+}
+
+#input #myTweet:focus
+{
+	position: absolute;
+	width: 465px;
+	height: 60px;
+	padding: 5px;
+	padding-right: 25px;
+	font-size: 16px;
+	color: black;
+	z-index: 1000;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	background: url( "images/twitBackground2.png" ) center no-repeat white;
+}
+
+
+/*#input #myTweet.normal
+{
+	background: rgba( 255, 255, 255, 0.1 );
+	color: black;
+}
+
+#input #myTweet.normal:focus
+{
+	background: rgba( 255, 255, 255, 0.75 );
+}*/
+
+#input #myTweet.warning
+{
+	background: rgba( 224, 34, 27, 0.5 );
+	color: white;
+}
+
+#input #myTweet.warning:focus
+{
+	background: rgba( 224, 34, 27, 0.95 );
+}
+
+/*#input #myTweetBackground
+{
+	position: relative;
+	top: 5px;
+	left: 8px;
+	z-index: -1;
+	background: #ffffff;
+}*/
+
+#input .myTweetTopBorder
+{
+	border: 1px solid #a0a0a0;
+	border-left: 0;
+	border-right: 0;
+	position: absolute;
+	top: 5px;
+	left: 9px;
+	width: 495px;
+	height: 23px;
+}
+
+#input .myTweetSideBorder
+{
+	border: 1px solid #a0a0a0;
+	border-top: 0;
+	border-bottom: 0;
+	width: 495px;
+	height: 23px;
+	margin-left: -1px;
+}
+
+#input #submitTweet
+{
+	position: absolute;
+	top: 5px;
+	left: 510px;
+	padding: 3px 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#input #extraButtons
+{
+	position: absolute;
+	top: 5px;
+	left: 610px;
+	width: 300px;
+	height: 50px;
+}
+
+#input #shrinkTweet
+{
+	font-size: 10px;
+	padding: 1px 10px;
+	left: 120px;
+	top: 0px;
+	position: absolute;
+}
+
+#input #twitLonger
+{
+	font-size: 11px;
+	padding: 2px 10px;
+	left: -10px;
+	top: 0px;
+	position: absolute;
+	z-index: 1;
+}
+
+#input #charCount
+{
+	position: absolute;
+	top: 7px;
+	left: 445px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #1a1a1a;
+	text-align: right;
+	width: 3em;
+	z-index: 1001;
+}
+
+#input #tweetStatus
+{
+	position: absolute;
+	top: -20px;
+	left: 600px;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	text-align: left;
+	width: 270px;
+}
+
+#input #shortenURIForm
+{
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	height: 24px;
+	width: 605px;
+
+}
+
+#input #shortenURIForm .uri
+{
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	width: 510px;
+	height: 24px;
+	background: url( "images/formElements/wideInput.png" ) top left no-repeat;
+	font-size: 14px;
+	color: black;
+	padding: 0 10px 0 10px;
+}
+
+#input #shortenURIForm .submit
+{
+	position: absolute;
+	top: 0px;
+	left: 500px;
+	width: 114px;
+	height: 24px;
+	cursor: pointer;
+	background: url( "images/commands/shortenURL.png" ) top left no-repeat;
+}
+
+#input #shortenURIForm .submit:hover
+{
+	background: url( "images/commands/shortenURL_hover.png" ) top left no-repeat;
+}
+
+#input #uploadForm
+{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+}
+
+#input #uploadForm .fileField
+{
+	opacity: 0;
+	width: 0;
+}
+
+#input #uploadForm .submit
+{
+	width: 80px;
+	height: 24px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: pointer;
+	background: url( "images/commands/twitPic.png" ) top left no-repeat;
+}
+
+#input #uploadForm .submit:hover
+{
+	background: url( "images/commands/twitPic_hover.png" ) top left no-repeat;
+}
+
+#input #filterForm
+{
+	position: absolute;
+	top: 85px;
+	left: 5px;
+	height: 24px;
+}
+
+#input #filterForm .text
+{
+	height: 24px;
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 14px;
+	color: black;
+	padding: 0 10px 0 10px;
+	background: url( "images/formElements/narrowInput.png" ) top left no-repeat;
+}
+
+#input #filterForm .filter
+{
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	height: 24px;
+	width: 116px;
+	background: url( "images/commands/filterTweets.png" ) top left no-repeat;
+	cursor: pointer;
+}
+
+#input #filterForm .filter:hover
+{
+	background: url( "images/commands/filterTweets_hover.png" ) top left no-repeat;
+}
+
+#input #filterForm .clear
+{
+	position: absolute;
+	top: 0px;
+	left: 306px;
+	height: 24px;
+	width: 103px;
+	background: url( "images/commands/clearFilter.png" ) top left no-repeat;
+	cursor: pointer;
+}
+
+#input #filterForm .clear:hover
+{
+	background: url( "images/commands/clearFilter_hover.png" ) top left no-repeat;
+}
+
+#input #filterForm #searchResult
+{
+	position: absolute;
+	top: 3px;
+	left: 410px;
+	font-size: 12px;
+	color: white;
+	width: 200px;
+}
+
+#menu
+{
+	position: absolute;
+	width: 100%;
+	top: 5px;
+	left: 0px;
+	padding-left: 8px;
+}
+
+#menu span.button
+{
+	font-size: 10px;
+	padding: 2px 15px;
+}
+
+#addUser
+{
+	width: 100%;
+}
+
+#addUser #logins
+{
+	display: block;
+	font-size: 14px;
+	width: 330px;
+	height: auto;
+	padding: 10px;
+	line-height: 2em;
+	float: left;
+}
+
+#addUser #logins a
+{
+	width: 165px;
+	height: 28px;
+	text-indent: -2000px;
+	display: block;
+}
+
+#addUser #logins a:hover
+{
+	background-position: -165px 0px !important;
+}
+
+#addUser #logins a[with=twitter]
+{
+	background: url( "images/loginButtons/twitter.gif" ) top left no-repeat;
+}
+
+#addUser #logins a[with=koornk]
+{
+	background: url( "images/loginButtons/koornk.gif" ) top left no-repeat;
+}
+
+#addUser #logins a[with=facebook]
+{
+	background: url( "images/loginButtons/facebook.gif" ) top left no-repeat;
+}
+
+#addUser #logins a[with=wave]
+{
+	background: url( "images/loginButtons/wave.gif" ) top left no-repeat;
+}
+
+#addUser .ui-accordion-header
+{
+	margin-top: 10px;
+}
+
+#addUser input
+{
+	width: 150px;
+	height: 20px;
+	font-size: 14px;
+	padding: 1px;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#addUser label
+{
+	display: inline-block;
+	padding-right: 5px;
+	after: content( ":" );
+	width: 90px;
+	vertical-align: middle;
+}
+
+#addUser #login
+{
+	color: black;
+	position: relative;
+	left: 95px;
+}
+
+#addUser formline
+{
+	display: block;
+	margin-bottom: 5px;
+}
+
+#addUser p.intro
+{
+	width: 300px;
+	float: right;
+}
+
+#addUser p
+{
+	margin-bottom: 1em;
+}
+
+#addUser #forum
+{
+	display: block;
+	width: 600px;
+	height: 320px;
+	position: absolute;
+	top: 43px;
+	left: 400px;
+	z-index: 1000;
+	opacity: 0.4;
+}
+
+#addUser #forum:hover
+{
+	opacity: 1.0;
+}
+
+#addUser .loading
+{
+	margin-top: -50px;
+	margin-left: -20px;
+	
+}
+
+.helper
+{
+	border:2px dashed #777777;
+}
+
+#tabs
+{
+	position: absolute;
+	left: 8px;
+	top: 62px;
+}
+
+.ui-tabs-nav .logout
+{
+	padding: 0px 3px;
+	color: black;
+	font-size: 10px;
+	font-weight: bold;
+	position: relative;
+	left: 12px;
+/* 	display: none; */
+}
+
+.ui-tabs-nav li a:hover .button
+{
+	display: inline-block !important;
+}
+
+#paneContainer
+{
+	display: inline-block;
+}
+
+.tweetPane
+{
+	overflow: hidden;
+	height: 350px;
+	display: none;
+	background: #262626;
+	color: white;
+	margin-left: 3px;
+}
+
+.tweetPane .button
+{
+	color: black;
+}
+
+.tweetPane h1
+{
+	font-size: 16px;
+	width: 280px;
+	cursor: pointer;
+}
+
+.tweetPane .panelClose
+{
+	float: right;
+	margin-right: 1px;
+	padding: 1px 5px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: -16px;
+}
+
+.tweetPane ul
+{
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	padding-bottom: 100px;
+	float: left;
+}
+
+.tweetPane li
+{
+	list-style: none;
+	padding: 6px 0px 12px 0px;
+	float: left;
+	margin: 0 1px 0 1px;
+	width: 98%;
+
+}
+
+.tweetPane li.tweet
+{
+	border-top: 1px solid #a0a0a0;
+	border-bottom: 1px solid black;
+}
+
+.tweetPane li.tweet:first-child
+{
+	border-top: 0;
+}
+
+.tweetPane li.tweet:last-child
+{
+	border-bottom: 0;
+}
+
+.tweetPane li.tweet a
+{
+	color: #c3c3c3;
+	text-decoration: underline;
+}
+
+.tweetPane li.tweet a:hover
+{
+	color: #ffffff;
+}
+
+.tweetPane li.tweet a.button:hover
+{
+	color: black;
+}
+
+.tweetPane li img, .tweetPane li block
+{
+	position: relative;
+}
+
+.tweetPane li img
+{
+	width: 48px;
+	height: 48px;
+	top: 4px;
+	left: 0px;
+}
+
+.tweetPane li block
+{
+	margin-top: -48px;
+	left: 51px;
+}
+
+.tweetPane li block, .tweetPane li label
+{
+	display: block;
+	width: 200px;
+}
+
+.tweetPane li label
+{
+	margin-left: -51px;
+	width: 251px;
+}
+
+.tweetPane li block
+{
+	margin-left: 3px;
+}
+
+.tweetPane li p
+{
+	margin: -3px 0 0 -3px;
+	min-height: 48px;
+	padding: 3px;
+}
+
+.tweetPane li.tweet block label, .tweetPane li.tweet block label *
+{
+	color: #a0a0a0;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+.tweetPane li.tweet block label:before
+{
+	content: "// ";
+}
+
+.tweetPane li .tweetMenu
+{
+	float: left;
+	width: 42px;
+	height: 48px;
+	margin: -48px -48px 0 0;
+	position: absolute;
+	padding-left: 6px;
+}
+
+.tweetPane li .tweetMenu a
+{
+	padding: 3px;
+	color: black;
+	font-size: 10px;
+}
+
+.tweetPane li .tweetMenu a.reply
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 2px 3px;
+}
+
+.tweetPane div.filter
+{
+	position: absolute;
+	bottom: 0px;
+	width: 280px;
+	height: 50px;
+	background: black;
+	z-index: 2;
+	display: none;
+}
+
+.tweetPane input.filter
+{
+	width: 80%;
+	padding: 2px;
+	font-size: 14px;
+	margin: 6px;
+	font-weight: bold;
+}
+
+.tweetPane div.filter .count
+{
+	font-size: 0.8em;
+}
+
+.lineBreaker
+{
+	float: left;
+	height: 1px;
+	width: 100%;
+}
+
+.paneMenuContainer
+{
+	width: 170px;
+	height: 350px;
+	display: inline-block;
+	left: 0px;
+	background: #363636;
+	float: left;
+}
+
+.paneMenu
+{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	padding: 0;
+	color: #afafaf;
+}
+
+.paneMenu li
+{
+	font-size: 14px;
+	padding: 1px 0px 1px 3px;
+	cursor: pointer;
+	list-style: none;
+}
+
+.paneMenu li:hover
+{
+	color: white;
+}
+
+#bottomBar
+{
+	position: absolute;
+	float: left;
+	bottom: 5px;
+	height: 1em;
+	width: 100%;
+	color: white;
+}
+
+#status
+{
+	float: left;
+	clear: left;
+	width: 50%;
+}
+
+#copyright
+{
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+
+#dialogWrapper
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 1002;
+	background: url( "images/blackDim.png" ) repeat;
+}
+
+#dialog
+{
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	background: white;
+}
+
+#dialog .close
+{
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	padding: 1px 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#dialog content
+{
+	width: 390px;
+	height: 250px;
+	overflow: auto;
+	display: block;
+	padding: 5px;
+	margin-top: 30px;
+}
+
+#dialog .title
+{
+	position: absolute;
+	top: 2px;
+	left: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	display: inline;
+}
+
+#dialog input
+{
+	border: 1px solid black;
+	height: 1.5em;
+	font-size: 14px;
+	padding: 3px;
+	width: 90%;
+}
+
+#dialog p
+{
+	font-size: 14px;
+	width: 90%;
+	margin-bottom: 1em;
+}
+
+#dialog hr
+{
+	width: 95%;
+	border: 1px solid black;
+}
+
+#dialog .jScrollPaneContainer
+{
+	margin-top: 20px;
+}
+
+#dialog div.pluginInfo
+{
+	padding-left: 5px;
+}
+
+#dialog div.pluginInfo label
+{
+	font-weight: bold;
+	float: left;
+	clear: left;
+	font-size: 12px;
+}
+
+#dialog div.pluginInfo label:after
+{
+	content: ":";
+}
+
+#dialog div.pluginInfo field
+{
+	display: block;
+	float: left;
+	font-size: 12px;
+}
+
+#dialog ul.plugins
+{
+	float: left;
+	clear: both;
+/* 	margin-bottom: 1em; */
+	width: 380px;
+	display: block;
+}
+
+#dialog ul.plugins li
+{
+	float: left;
+	clear: both;
+	font-size: 14px;
+	cursor: pointer;
+	padding: 3px 0 3px 0;
+	width: 380px;
+	display: block;
+}
+
+#dialog ul.plugins li:hover
+{
+	background: #FDFFD7;
+}
+
+#dialog h4
+{
+	margin-top: 1em;
+	float: left;
+	clear: both;
+}
+
+#dialog ul.plugins label
+{
+	font-weight: bold;
+}
+
+#dialog ul.plugins  label.state
+{
+	cursor: pointer;
+}
+
+#dialog ul.plugins label.state:hover
+{
+	text-decoration: underline;
+}
+
+#dialog ul.plugins  label.active
+{
+	color: green;
+}
+
+#dialog ul.plugins  label.deactived
+{
+	color: red;
+}
+
+#dialog ul.plugins span.button
+{
+	float: left;
+	margin-left: 100px;
+}
+
+#dialog ul.sliders li
+{
+	line-height: 2em;
+	height: 2em;
+}
+
+#dialog ul.sliders li .value
+{
+	padding-left: 20px;
+}
+
+#dialog .ui-slider-horizontal
+{
+	width: 200px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#People ul.people li
+{
+	min-height: 48px;
+	padding: 3px 0px;
+}
+
+#People ul.people li img
+{
+	width: 48px;
+	height: 48px;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#People ul.people li div
+{
+	display: inline-block;
+	min-height: 48px;
+	vertical-align: middle;
+}
+
+#People ul.people li div.info
+{
+	width: 180px;
+}
+
+#People ul.people li div.commands
+{
+	width: 130px;
+	color: black;
+}
+
+#People ul.people li div.info p
+{
+	margin-bottom: 5px;
+}
+
+#People .pager
+{
+	width: 100%;
+	text-align: right;
+	color: black;
+}
+
+#languagePicker
+{
+	display: none;
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 150px;
+	color: white;
+	font-size: 20px;
+}
+
+#languagePicker ul.flags
+{
+	width: 100%;
+}
+
+#languagePicker ul.flags li
+{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+}
+
+#languagePicker ul.flags li a
+{
+	color: white;
+}
+
+#Profile avatar, #Profile name, #Profile location, #Profile description, #Profile commands, #Profile time_zone, #Profile statuses, #Profile following, #Profile followers
+{
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+#Profile l
+{
+	display: inline;
+	margin: 0;
+}
+
+#Profile name
+{
+	font-size: 16px;
+}
+
+#Profile img
+{
+	max-width: 350px;
+}
+
+#Searches li
+{
+	font-size: 14px;
+	padding: 2px 5px;
+}
+
+#Searches span
+{
+	color: black;
+}
+
+#Searches input
+{
+	height: 1.2em;
+	width: 200px;
+	padding: 3px;
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#Searches span.new
+{
+		font-size: 13px;
+		padding: 2px 5px;
+}
+
+#Searches span.enable, #Searches span.remove
+{
+	font-size: 12px;
+	padding: 1px 5px;
+}
+
+#Searches term
+{
+	display: inline-block;
+	min-width: 50%;
+}
+
+#Groups 
+{
+	height: 450px;
+}
+
+#Groups .groups
+{
+	width: 60%;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+#Groups #People
+{
+	width: 35%;
+	display: inline-block;
+	float: left;
+}
+
+#Groups .group input
+{
+	height: 1.1em;
+	width: 130px;
+	padding: 2px;
+	font-size: 13px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#Groups .group ul
+{
+	border: 1px solid #adadad;
+	-webkit-border-radius: 3px;
+	min-height: 1em;
+}
+
+#Groups #People ul.people li div.info,
+#Groups .group ul li div.info
+{
+	width: 100px;
+	height: 28px;
+	min-height: 28px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#Groups #People ul.people li img,
+#Groups .group ul li img
+{
+	width: 28px;
+	height: 28px;
+	margin-right: 5px;
+}
+
+#Groups #People ul.people li,
+#Groups .group ul li
+{
+	height: 28px;
+	min-height: 28px;
+	padding: 1px 0px;
+}
+
+#Groups span.save
+{
+	margin-top: 5px;
+	color: black;
+}
+
+#Groups .group ul li div.info
+{
+	vertical-align: top;
+	width: 160px;
+}
+
+#Groups .group ul li div.info strong
+{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#Groups h3 span.remove
+{
+	float: right;
+	margin-top: -28px;
+	margin-right: 10px;
+	color: black;
+}
+
+#Groups .pager input,
+#People .pager input
+{
+	width: 80px;
+	height: 1.1em;
+	padding: 2px;
+	font-size: 11px;
+}
+
+#autoComplete
+{
+	z-index: 998;
+	background: inherit;
+	position: absolute;
+	top: 100px;
+	left: 8px;
+	width: 160px;
+	opacity: 1;
+	height: 300;
+	display: none;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	border: 2px solid #505050;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#autoComplete #People ul.people li img
+{
+	width: 28px;
+	height: 28px;
+	margin-right: 5px;
+}
+
+#autoComplete #People ul.people li div.info
+{
+	width: 100px;
+	height: 28px;
+	min-height: 28px;
+	vertical-align: middle;
+	display: inline-block;
+	color: white;
+}
+
+
+
+#autoComplete #People ul.people li
+{
+	height: 28px;
+	min-height: 28px;
+	padding: 1px 0px;
+}
+
+#autoComplete #People ul.people li:hover
+{
+	border: white 2px solid;
+}
+
+#autoCompleteHashTags
+{
+	z-index: 998;
+	background: inherit;
+	position: absolute;
+	top: 100px;
+	left: 8px;
+	width: 160px;
+	opacity: 1;
+	height: 300;
+	display: none;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	border: 2px solid #505050;
+	padding: 10px;
+	cursor: pointer;
+	
+}
+
+#autoCompleteHashTags li
+{
+	height: 28px;
+	line-height: 28px;
+	display: block;
+	color: white;
+	width: 100%;
+}
+
+#autoCompleteHashTags li:hover
+{
+	border: white 2px solid;
+}
+#autoCompleteHashTags li a
+{
+	border: 1p solid red;
+	display: block;
+	width: 100%;
+	height: 100%;
+}

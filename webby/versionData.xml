@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+	<latestversion>0.14.0.2</latestversion>
+	<releasenotes>
+- fixed column resize issues
+- fixed a bug with creating groups
+- fixed disgraceful failure on tweeting errors
+- made the feedback form less annoying
+	</releasenotes>
+</application>

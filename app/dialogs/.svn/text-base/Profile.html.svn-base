@@ -1,0 +1,15 @@
+
+<div id="Profile">
+
+	<avatar></avatar>
+	
+	<name></name>
+	<location></location>
+	<description></description>
+	<commands></commands>
+	<time_zone></time_zone>
+	<statuses></statuses>
+	<following></following>
+	<followers></followers>
+
+</div>

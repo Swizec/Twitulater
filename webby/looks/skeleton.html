@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title>{$ TITLE $}</title>
+
+		<link rel="stylesheet" href="looks/css.css" type="text/css" />
+		<link rel="stylesheet" href="looks/jScrollPane.css" type="text/css" />
+		<link rel="stylesheet" href="looks/galleria.css" type="text/css" />
+		<link rel="stylesheet" href="looks/styledButton.css" type="text/css" />
+		<link rel="stylesheet" href="looks/jquery.tweet.css" type="text/css" />
+
+		<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+		<script type="text/javascript" src="js/jScrollPane.js"></script>
+		<script type="text/javascript" src="js/jquery.galleria.min.js"></script>
+		<script type="text/javascript" src="js/jquery.styledButton.js"></script>
+		<script type="text/javascript" src="js/jquery.tweet.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
+
+	<body>
+		<div id="galleryContainer">
+		<ul class="gallery">
+			<li><img src="/gallery/1.png" title="Many open columns and some filtering" /></li>
+			<li><img src="/gallery/2.png" title="Username autocompletion" /></li>
+			<li><img src="/gallery/3.png" title="Editing groups" /></li>
+			<li><img src="/gallery/4.png" title="Editing searches" /></li>
+			<li><img src="/gallery/5.png" title="Long tweet with extra options" /></li>
+			<li><img src="/gallery/6.png" title="The new login screen" /></li>
+			<li><img src="/gallery/7.png" title="Language selector" /></li>
+		</ul>
+		
+		<a href="/downloader.php?file=Twitulater.air" class="getnow">Free download now!</a>
+
+		<ul id="menu">
+			<li class="left"><a href="/index">Home</a></li><li class="center"><a href="/download">Download</a></li><li class="center"><a href="/features">Features</a></li><li class="right"><a href="http://twitulater.posterous.com">Blog</a></li>
+		</ul>
+
+		<div id="contentContainer">
+		<div id="content">
+			{$ CONTENT $}
+			
+			<ul id="minimenu">
+				<li class="center"><a href="/contact">Contact</a></li><li class="center"><a href="/history">History</a></li><li class="center"><a href="/changelog">Changelog</a></li><li class="center"><a href="/nightly">Nightly</a></li><li class="right"><a href="/credits">Credits</a></li>
+			</ul>
+		</div>
+		</div>
+
+		<script type="text/javascript" charset="utf-8">
+  var is_ssl = ("https:" == document.location.protocol);
+  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  var feedback_widget_options = {};
+
+  feedback_widget_options.display = "overlay";  
+  feedback_widget_options.company = "twitulater";
+  feedback_widget_options.placement = "right";
+  feedback_widget_options.color = "#6dc5ff";
+  feedback_widget_options.style = "idea";
+
+  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+</script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1464315-6");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+	</body>
+</html>
